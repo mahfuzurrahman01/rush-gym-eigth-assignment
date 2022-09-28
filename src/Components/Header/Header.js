@@ -7,7 +7,7 @@ const Header = () => {
         <div className='header'>
             <FontAwesomeIcon icon={faDumbbell} size="6x" className='icon'/>
             <h1>Rush GYM</h1>
-            <small className='text-secondary'>Lets burn some calories</small>
+            <small className='text-secondary'>“If you want something you've never had, you must be willing to do something you've never done.”</small>
         </div>
     );
 };

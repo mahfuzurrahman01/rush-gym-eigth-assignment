@@ -1,0 +1,9 @@
+.card{
+    width: 100%;
+    padding: 0.5rem;
+}
+.btn{
+    background-color: rgba(25, 84, 35, 0.912);
+    display: block;
+    margin: 0.3rem auto 0;
+}
