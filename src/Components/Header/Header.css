@@ -1,0 +1,10 @@
+.icon,h1{
+    color: rgba(25, 84, 35, 0.803);
+}
+h1{
+    font-weight: bolder;
+}
+.header{
+    margin-top: 7rem;
+    margin-left: 5rem;
+}

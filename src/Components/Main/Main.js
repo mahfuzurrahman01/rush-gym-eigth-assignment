@@ -1,9 +1,14 @@
 import React from 'react';
+import './Main.css'
+import Header from '../Header/Header';
+import Card from '../Card/Card';
+
 
 const Main = () => {
     return (
-        <div className='bg-secondary'>
-            <h1 className='text-warning'>I am from main</h1>
+        <div className="main">
+            <Header></Header>
+             <Card></Card>
         </div>
     );
 };
