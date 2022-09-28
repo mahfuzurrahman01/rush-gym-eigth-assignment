@@ -1,0 +1,23 @@
+.my-info img{
+    width: 60px;
+    height: 50px;
+    border-radius: 100%;
+    border: 3px solid rgba(25, 84, 35, 0.803);
+    padding: 3px;
+}
+.name-address {
+    display: flex;
+    flex-direction: column;
+}
+.name-address .icon{
+    color: rgba(25, 84, 35, 0.803);
+}
+.my-info{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.name-address h5,p{
+    margin-bottom: 0;
+
+}
