@@ -1,9 +1,13 @@
 import './App.css';
+import Main from './Components/Main/Main';
+import Sidebar from './Components/Sidebar/Sidebar';
+
 
 function App() {
   return (
     <div className="App">
-      <h1 className='text-danger text-center'>Hello there</h1>
+     <Main></Main>
+     <Sidebar></Sidebar>
     </div>
   );
 }
