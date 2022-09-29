@@ -1,0 +1,23 @@
+.footer{
+    width: 80%;
+    margin: 3rem auto;
+}
+.question{
+    background-color: lightblue;
+    border-radius: 7px 7px 0 0;
+    padding: 0.7rem;
+}
+ .question-answer{
+    padding: 2rem;
+    background-color: #51875a;
+    box-shadow: 5px 10px 15px black;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+.answer{
+   background-color: rgb(231, 233, 233);
+   padding: 0.7rem;
+   border-radius: 0 0 7px 7px;
+   margin-top: 0.5rem;
+}

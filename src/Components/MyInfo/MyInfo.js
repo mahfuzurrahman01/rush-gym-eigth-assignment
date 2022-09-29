@@ -27,7 +27,7 @@ const MyInfo = () => {
                     <p>Age</p>
                 </div>
             </div>
-            <hr />
+
         </div>
     );
 };
