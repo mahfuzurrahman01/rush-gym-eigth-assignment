@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
             <div className='question-answer'>
                 <h5 className='question'>What does useEffect do ?</h5>
-                <p className='answer'>By using this Hook, you tell React that your component needs to do something after render. React will remember the function you passed (we’ll refer to it as our “effect”), and call it later after performing the DOM updates. In this effect, we set the document title, but we could also perform data fetching or call some other imperative API.</p>
+                <p className='answer'>By using this Hook, you tell React that your component needs to do something after render. React will remember the function you passed (we’ll refer to it as our “effect”), and call it later after performing the DOM updates. In this effect, we set the document title, but we could also perform data fetching or call some other imperative API !!</p>
             </div>
             <p className='text-center text-secondary mt-5 mb-1'>Developed by @Mahfuzur01 | 8th assignment | programming hero</p>
         </div>
