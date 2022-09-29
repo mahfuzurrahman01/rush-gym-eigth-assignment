@@ -8,3 +8,6 @@
     display: block;
     margin: 0.3rem auto 0;
 }
+.card-title{
+    color: rgba(25, 84, 35, 0.995);
+}
