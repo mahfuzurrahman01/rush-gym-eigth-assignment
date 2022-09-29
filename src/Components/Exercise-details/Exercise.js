@@ -2,17 +2,21 @@ import { getFromLocalStorage } from '../Utilities/Utilities';
 import './Exercise.css'
 import Swal from 'sweetalert2'
 const Exercise = (props) => {
+     
      const time = props.count;
      const totalTime = time.reduce((current,previous)=>current + previous,0)
- 
-    // const [time,setTime] = useState([])
-    // const {count} = props;
-    // // console.log(time)
-    // // useEffect(() => {
-    // // setTime(() => count + time)
-    // // console.log(count + time)        
-    // // },[count])
-    const value = getFromLocalStorage()
+
+    //  break time set 
+
+    //  const breakTime = props.breakTime;
+    let value = localStorage.getItem('break-time')
+    if(value){
+        value = getFromLocalStorage()
+    }
+    else{
+        value = 0;
+    }
+    // toast
     const toastHandler = () =>{
         const Toast = Swal.mixin({
             toast: true,
@@ -28,7 +32,7 @@ const Exercise = (props) => {
           
           Toast.fire({
             icon: 'success',
-            title: 'Signed in successfully'
+            title: `Congrats! You're done!`
           })
     }
     

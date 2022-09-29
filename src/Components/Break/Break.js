@@ -1,11 +1,8 @@
 import React from 'react';
-import { setTheInnerText, setToLocalStorage } from '../Utilities/Utilities';
 import './Break.css'
-const Break = () => {
-    const breakHandler = (id) =>{
-        setTheInnerText('break-time-duration', id)
-        setToLocalStorage(id)
-    } 
+const Break = (props) => {
+    const{ breakHandler } = props;
+        
     return (
         <div className='break'>
             <p>Add A Break</p>

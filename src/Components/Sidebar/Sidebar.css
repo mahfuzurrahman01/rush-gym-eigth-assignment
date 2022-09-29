@@ -1,7 +1,7 @@
 .sidebar{
     background-color: rgb(231, 233, 233);
 }
-
+/* responsive for tablet ; phone */
 @media screen and (max-width: 700px) {
     .sidebar{
         margin-top: 1rem;

@@ -43,6 +43,10 @@
 .icon{
     font-size: 30px;
 }
+
+
+/* responsive for tablet and phone  */
+
 @media screen and (max-width: 700px) {
     .my-info{
         display: flex;
