@@ -8,3 +8,9 @@
     }
     
 }
+
+@media screen and (max-width: 1200px) and (min-width: 701px){
+    .sidebar{
+        margin-top: 2rem;
+    }
+  }

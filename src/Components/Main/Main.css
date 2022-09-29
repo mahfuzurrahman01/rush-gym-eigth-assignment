@@ -15,3 +15,9 @@
 
     }
 }
+@media screen and (max-width: 1200px) and (min-width: 701px){
+    .cards-container{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+  }

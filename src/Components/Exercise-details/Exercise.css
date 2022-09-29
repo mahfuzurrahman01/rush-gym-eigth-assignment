@@ -23,3 +23,17 @@
 .break-time h5{
     font-weight: 400;
 }
+.btn{
+    width: 75%;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 701px){
+    .time ,.break-time{
+        width: 420px;
+    }
+    .btn{
+        width: 50%;
+    }
+
+  }

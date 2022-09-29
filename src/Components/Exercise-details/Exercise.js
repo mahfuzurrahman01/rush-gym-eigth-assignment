@@ -43,7 +43,7 @@ const Exercise = (props) => {
                 <h5>Break time</h5>
                 <p><span id="break-time-duration">{value}</span>s</p>
             </div>
-            <button className='btn w-75 text-white btn-outline-dark' onClick={() => toastHandler()}>Activity Complete</button>
+            <button className='btn text-white btn-outline-dark' onClick={() => toastHandler()}>Activity Complete</button>
         </div>
     );
 };
