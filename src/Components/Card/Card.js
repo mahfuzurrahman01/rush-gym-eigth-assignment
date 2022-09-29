@@ -12,7 +12,7 @@ const Card = (props) => {
                         <small className='card-text text-secondary'>{about.slice(0,120)}...</small>
                         <h6 className="card-text mt-1 mb-0">For age: {age}</h6>
                         <h6 className="card-text mt-2 mb-0">Duration: {time}s</h6>
-                        <button href="#" className="btn btn-outline-dark">Add to list</button>
+                        <button href="#" className="btn btn-outline-dark text-white">Add to list</button>
                     </div>
             </div>
         </div>
