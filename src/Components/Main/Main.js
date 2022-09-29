@@ -4,7 +4,8 @@ import Header from '../Header/Header';
 import Card from '../Card/Card';
 
 
-const Main = () => {
+const Main = (props) => {
+    const {addToListHandler} = props;
     const [activity,setActivity] = useState([]);
     useEffect(() =>{
         fetch('fakedb.json')
@@ -16,7 +17,7 @@ const Main = () => {
             <Header></Header>
              <div className='cards-container'>
              {
-                activity.map(item => <Card key = {item.id} item = {item}></Card>)
+                activity.map(item => <Card key = {item.id} item = {item} addToListHandler = {addToListHandler}></Card>)
              }
              </div>
         </div>

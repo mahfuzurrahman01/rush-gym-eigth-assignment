@@ -13,6 +13,7 @@
     background-color: #E7E9E9;
     padding: 6px;
     border-radius: 100%;
+    cursor: pointer;
 }
 .break-point h5:hover{
     background-color: lightgray;

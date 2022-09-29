@@ -1,15 +1,20 @@
 import React from 'react';
+import { setTheInnerText, setToLocalStorage } from '../Utilities/Utilities';
 import './Break.css'
 const Break = () => {
+    const breakHandler = (id) =>{
+        setTheInnerText('break-time-duration', id)
+        setToLocalStorage(id)
+    } 
     return (
         <div className='break'>
             <p>Add A Break</p>
             <div className='break-point'>
-                <h5>10</h5>
-                <h5>20</h5>
-                <h5>30</h5>
-                <h5>40</h5>
-                <h5>50</h5>
+                <h5 onClick={()=> breakHandler(10)}>10</h5>
+                <h5 onClick={()=> breakHandler(20)}>20</h5>
+                <h5 onClick={()=> breakHandler(30)}>30</h5>
+                <h5 onClick={()=> breakHandler(40)}>40</h5>
+                <h5 onClick={()=> breakHandler(50)}>50</h5>
             </div>
         </div>
     );

@@ -4,7 +4,7 @@
       "picture": "https://i.ibb.co/8c422KS/pexels-andrea-piacquadio-3775164.jpg",
       "age": "25-30",
       "name": "Pushups",
-      "time": "20",
+      "time": 20,
       "about": "Push-ups may seem like a basic exercise that works only your upper arms and chest, but when you do them the right way, they use muscles all over your body. You can do them just about anywhere, they can be adjusted to fit any ability level -- and they’re free!"
     },
     {
@@ -12,7 +12,7 @@
       "picture": "https://i.ibb.co/fGJmxJ9/victor-freitas-Wv-DYd-XDzkhs-unsplash.jpg",
       "age": "25-35",
       "name": "Squats",
-      "time": "30",
+      "time": 30,
       "about": "Squats burn calories and might help you lose weight. They also lower your chances of injuring your knees and ankles. As you exercise, the movement strengthens your tendons, bones, and ligaments around the leg muscles."
     },
     {
@@ -20,7 +20,7 @@
       "picture": "https://i.ibb.co/k9QMTkm/pexels-alesia-kozik-7289302.jpg",
       "age": "22-40",
       "name": "Dumbbell rows",
-      "time": "50",
+      "time": 50,
       "about": "The dumbbell row primarily hits muscles on your back, but also improves core stability, while engaging muscles on your shoulder, biceps and triceps. The muscles worked are as follow: Latissiumus dorsi "
     },
     {
@@ -28,7 +28,7 @@
       "picture": "https://i.ibb.co/W2CWKm1/victor-freitas-YO7f0-Xm-Ut4-unsplash.jpg",
       "age": "25-45",
       "name": "Single-leg deadlifts",
-      "time": "20",
+      "time": 20,
       "about": "What does the single leg deadlift work? The single leg deadlift strengthens the posterior chain namely the glutes, hamstrings, lower back and core muscles. Your balance and movement skills will also be improved with this exercise."
     },
     {
@@ -36,7 +36,7 @@
       "picture": "https://i.ibb.co/dL7WNtQ/pexels-victor-freitas-703016.jpg",
       "age": "25-35",
       "name": "Burpees",
-      "time": "20",
+      "time": 20,
       "about": "With burpees, the focus is on a full-body calisthenics workout that aims to build muscle strength and endurance in both your lower and upper body. A standard burpee exercise works to strengthen the muscles in your legs, hips, buttocks, abdomen, arms, chest, and shoulders"
     },
     {
@@ -44,7 +44,7 @@
       "picture": "https://i.ibb.co/0CqTBJT/pexels-leon-ardho-1552250.jpg",
       "age": "20-30",
       "name": "Side squats",
-      "time": "50",
+      "time": 50,
       "about": "The side to side squats activates several muscle groups simultaneously, working the legs, glutes, and core. The squat increases performance and flexibility and the side-to-side movement improves dynamic balance and agility."
     },
     {
@@ -52,7 +52,7 @@
       "picture":"https://i.ibb.co/qF11cgH/pexels-tima-miroshnichenko-6389082.jpg",
       "age": "20-45",
       "name": "Pull-ups",
-      "time": "10",
+      "time": 10,
       "about": "To perform a pullup, you start by hanging onto a pullup bar with your palms facing away from you and your body extended fully. You then pull yourself up until your chin is above the bar. Pullups are different than a chinup. With a chinup, your palms and hands face toward you."
     },
     {
@@ -60,7 +60,7 @@
       "picture": "https://i.ibb.co/PwhgmqC/pexels-ketut-subiyanto-4804294.jpg",
       "age": "25-35",
       "name": "Foam Roller",
-      "time": "20",
+      "time": 20,
       "about": "A foam roller is a lightweight foam cylinder that you use to self-administer deep tissue massage. Foam rolling releases muscle knots, relieves inflammation, and improves overall comfort."
     },
     {
@@ -68,7 +68,7 @@
       "picture": "https://i.ibb.co/5Y60wNv/pexels-lukas-669580.jpg",
       "age": "20-30",
       "name": "Bent-over",
-      "time": "20",
+      "time": 20,
       "about": "The bent over row is a multi-jointed exercise that recruits several different muscles. It improves strength in the upper and lower back, glutes, hamstrings, lats, and shoulders."
     }
   ]
